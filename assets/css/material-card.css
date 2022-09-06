@@ -1,0 +1,206 @@
+
+  /* 
+  *
+  * CARD
+  *
+  */
+.material-card {
+    position: relative;
+    margin: 0.5rem 0 1rem 0;
+    background-color: #fff;
+    -webkit-transition: -webkit-box-shadow .25s;
+    transition: -webkit-box-shadow .25s;
+    transition: box-shadow .25s;
+    transition: box-shadow .25s, -webkit-box-shadow .25s;
+    border-radius: 2px;
+  }
+  
+  .material-card .material-card-title {
+    font-size: 24px;
+    font-weight: 300;
+  }
+  
+  .material-card .material-card-title.activator {
+    cursor: pointer;
+  }
+  
+  .material-card.small, .material-card.medium, .material-card.large {
+    position: relative;
+  }
+  
+  .material-card.small .material-card-image, .material-card.medium .material-card-image, .material-card.large .material-card-image {
+    max-height: 60%;
+    overflow: hidden;
+  }
+  
+  .material-card.small .material-card-image + .material-card-content, .material-card.medium .material-card-image + .material-card-content, .material-card.large .material-card-image + .material-card-content {
+    max-height: 40%;
+  }
+  
+  .material-card.small .material-card-content, .material-card.medium .material-card-content, .material-card.large .material-card-content {
+    max-height: 100%;
+    overflow: hidden;
+  }
+  
+  .material-card.small .material-card-action, .material-card.medium .material-card-action, .material-card.large .material-card-action {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .material-card.small {
+    height: 300px;
+  }
+  
+  .material-card.medium {
+    height: 400px;
+  }
+  
+  .material-card.large {
+    height: 500px;
+  }
+  
+  .material-card.horizontal {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .material-card.horizontal.small .material-card-image, .material-card.horizontal.medium .material-card-image, .material-card.horizontal.large .material-card-image {
+    height: 100%;
+    max-height: none;
+    overflow: visible;
+  }
+  
+  .material-card.horizontal.small .material-card-image img, .material-card.horizontal.medium .material-card-image img, .material-card.horizontal.large .material-card-image img {
+    height: 100%;
+  }
+  
+  .material-card.horizontal .material-card-image {
+    max-width: 50%;
+  }
+  
+  .material-card.horizontal .material-card-image img {
+    border-radius: 2px 0 0 2px;
+    max-width: 100%;
+    width: auto;
+  }
+  
+  .material-card.horizontal .material-card-stacked {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    position: relative;
+  }
+  
+  .material-card.horizontal .material-card-stacked .material-card-content {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+  }
+  
+  .material-card.sticky-action .material-card-action {
+    z-index: 2;
+  }
+  
+  .material-card.sticky-action .material-card-reveal {
+    z-index: 1;
+    padding-bottom: 64px;
+  }
+  
+  .material-card .material-card-image {
+    position: relative;
+  }
+  
+  .material-card .material-card-image img {
+    display: block;
+    border-radius: 2px 2px 0 0;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .material-card .material-card-image .material-card-title {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    padding: 24px;
+  }
+  
+  .material-card .material-card-content {
+    padding: 24px;
+    border-radius: 0 0 2px 2px;
+  }
+  
+  .material-card .material-card-content p {
+    margin: 0;
+  }
+  
+  .material-card .material-card-content .material-card-title {
+    display: block;
+    line-height: 32px;
+    margin-bottom: 8px;
+  }
+  
+  .material-card .material-card-content .material-card-title i {
+    line-height: 32px;
+  }
+  
+  .material-card .material-card-action {
+    background-color: inherit;
+    border-top: 1px solid rgba(160, 160, 160, 0.2);
+    position: relative;
+    padding: 16px 24px;
+  }
+  
+  .material-card .material-card-action:last-child {
+    border-radius: 0 0 2px 2px;
+  }
+  
+  .material-card .material-card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    color: #ffab40;
+    margin-right: 24px;
+    -webkit-transition: color .3s ease;
+    transition: color .3s ease;
+    text-transform: uppercase;
+  }
+  
+  .material-card .material-card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating):hover {
+    color: #ffd8a6;
+  }
+  
+  .material-card .material-card-reveal {
+    padding: 24px;
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    overflow-y: auto;
+    left: 0;
+    top: 100%;
+    height: 100%;
+    z-index: 3;
+    display: none;
+  }
+  
+  .material-card .material-card-reveal .material-card-title {
+    cursor: pointer;
+    display: block;
+  }  

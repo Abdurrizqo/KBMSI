@@ -1,0 +1,14 @@
+{
+    "name": "Website KBMSI UB",
+    "short_name": "KBMSI_UB",
+    "display": "standalone",
+    "background_color": "#f7580f",
+    "theme_color": "#f7580f",
+    "icons": [
+        {
+            "src": "kbmsi-full.ico",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+/* CSS Document */
+@import 'stylee';
+
+$blue : #fff;
+
+.parallax-w {
+	background-image: url(../sapi.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+@media only screen and (min-width: 992px) {
+	.logo-pojok {
+		margin-top: 8px;
+		margin-left: 10px;
+		height: 100%;
+		width: 150px;
+	}
+	.logo-header {
+		height: 100%;
+		width: 400px;
+		
+	}
+	.judul {
+		border-bottom: solid 5px rgba(53,53,53,0.25);
+		padding: 10px 15px 5px 15px;
+		font-size: 36px;
+	}
+	.empat-puluh{
+		font-size: 50px;
+	}
+	
+}
+@media only screen and (max-width: 991px) {
+	.logo-pojok {
+		margin-top: 10px;
+		margin-left: 10px;
+		height: 100%;
+		width: 120px;
+	}
+	.logo-header {
+		height: 100%;
+		width: 280px;
+		
+	}
+	.judul {
+		border-bottom: solid 5px rgba(53,53,53,0.25);
+		padding: 5px 15px 5px 15px;
+		font-size: 24px;
+	}
+	.empat-puluh{
+		font-size: 30px;
+	}
+}

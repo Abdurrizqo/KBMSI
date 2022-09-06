@@ -1,0 +1,703 @@
+@media (min-width: 1100px) and (max-width: 1368px) {
+.wrapkonten1 {width: 70%;}
+}
+@media (max-width: 1220px) {
+.wrapkonten2 {width: 20%;}
+.wrapkonten1 {width: 60%;}
+}
+@media (min-width: 768px) and (max-width: 1099px) {
+
+.konten {top: 100px;}
+.test{display: none;}
+.konten {border-right: solid 5px #fff;}
+.wrapkonten1 {width: 100%;}
+.wrapkonten2 {display: none;}
+}
+
+@media (max-width: 767px) {
+
+.konten {top: 100px;}
+.konten {border-right: #fff;}
+.test{display: none;}
+.wrapkonten2 {display: none;}
+#row_konten {padding:0px 5% 0px 5%;}
+.wrapkonten1 {width: 100%;}
+.box_searchArsip{display: none;}
+}
+
+@media (max-width: 480px) {
+.konten {top: 100px;}
+.test{display: none;}
+.konten {border-right: #e9e9e9;}
+.wrapkonten2 {display: none;}
+#row_konten {padding:0px 5% 0px 5%;}
+.wrapkonten1 {width: 100%;}
+
+}
+
+
+
+
+@media (max-width: 320px) {
+.konten {top: 100px;}
+.test{display: none;}
+#row_konten {padding:0px 2% 0px 2%;}
+.wrapkonten1 {width: 100%;}
+}
+
+
+.wrapkonten1 {
+	height:auto;
+	float: left;
+	padding-right: 5%;
+}
+.wrapArsip {
+	height:auto;
+	float: left;
+	width: 100%;
+}
+.wrapkonten2 {
+	width: 280px;
+	height:100%;
+	float: left;
+	background-color: transparent;
+	left: 20px;
+	position: relative;
+}
+.logoBerita {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background-color: #1C94C6;
+	width: 75px;
+	height: 75px;
+	
+	text-align: center;
+	font-size: 45;
+	color: #fff;
+	float: left;
+	padding-top: 15px;
+
+	}
+.txtBerita {
+	
+	width: 75px;
+	height: 75px;
+	
+	text-align: left;
+	font-size: 45px;
+	color: #2A3744;
+	display: inline-block;
+	padding-top: 5px;
+	left: 20px;	
+}
+
+.breadCrumbs {
+	width: auto;
+	height: 25px;
+	/*border-bottom: 1px solid #efefef;*/
+}
+
+bc {
+	width: auto;
+	padding: 3px 6px 3px 6px;
+	height: 20px;
+	font-size: 12px;
+	color: #fff;
+	background-color: #D05A93;
+	margin-right: 7px;
+}
+bc2 {
+	width: auto;
+	padding: 3px 6px 3px 6px;
+	height: 20px;
+	font-size: 12px;
+	color: #fff;
+	background-color: #3CAE6B;
+	margin-right: 10px;
+}
+.postTittle {
+	font-size: 50px;
+line-height: 46px;
+padding: 15px 3px;
+margin: 0px 0px 15px;
+font-weight: bolder;
+color: #2A3744;
+}
+.konten {
+	top:50px;
+	padding: 20px 20px 20px 20px;
+	background-color:#fff; height:auto;   color:#000;border: solid 1px #fff;
+	border-right: #fff;
+}
+
+.postTime {
+	color: #fff;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-color: #1C94C6;
+	width: auto;
+	min-width: 50px;
+	height: 30px;
+	padding: 7px 10px 5px 10px;
+	text-align: center;
+	font-size: 12px;
+	float: left;
+	margin-bottom: 50px;
+}
+.writer {
+	color: #fff;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-color: #1C94C6;
+	min-width: 50px;
+	width:auto;
+	height: 30px;
+	padding: 7px 10px 5px 10px;
+	text-align: center;
+	font-size: 12px;
+	float: left;
+	margin-bottom: 50px;
+	margin-left: 20px;
+}
+.isiKonten {
+	float: left;
+	top: 10px;
+	width: auto;
+}
+.isiKontenEnd {
+	border-top:2px solid #CCD4D8;
+	clear: both;
+	margin-top: 50px;
+	color: #CCD4D8;
+	text-align: right;
+	font-size: 25px;
+}
+.gambar {
+	background-color: #bbb;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
+	box-shadow: 0 8px 6px -6px black;
+	width: auto;
+	height: auto;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+
+
+
+/* TABLE STYLES */
+table {
+		overflow:hidden;
+		border:1px solid #d3d3d3;
+		background:#fefefe;
+		width: auto;
+		margin:5% auto 0;
+		-moz-border-radius:5px; /* FF1+ */
+		-webkit-border-radius:5px; /* Saf3-4 */
+		border-radius:5px;
+		-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+		-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+		font-size: 14px;
+
+	}
+	
+	th, td {padding:5px 5px 5px; text-align:left; }
+	
+	th {padding-top:10px;  background:#1C94C6; color: #fff}
+	
+	td {border-top:1px solid #e0e0e0; border-radius: 0px 0px 0px 5px; border-right:1px solid #e0e0e0; }
+	
+	tr.odd-row td {background:#f6f6f6;}
+	
+	td.first, th.first {text-align:left}
+	
+	td.last {border-right:none;}
+	
+	/*
+	Background gradients are completely unnecessary but a neat effect.
+	*/
+	
+	
+	
+	/*
+	I know this is annoying, but we need additional styling so webkit will recognize rounded corners on background elements.
+	Nice write up of this issue: http://www.onenaught.com/posts/266/css-inner-elements-breaking-border-radius
+	
+	And, since we've applied the background colors to td/th element because of IE, Gecko browsers also need it.
+	*/
+	
+	tr:first-child th.first {
+		border-radius: 5px 0px 0px 0px;
+		-moz-border-radius-topleft:5px;
+		-webkit-border-top-left-radius:5px; /* Saf3-4 */
+	}
+	
+	tr:first-child th.last {
+		border-radius: 0px 5px 0px 0px;
+		-moz-border-radius-topright:5px;
+		-webkit-border-top-right-radius:5px; /* Saf3-4 */
+	}
+	
+	tr:last-child td.first {
+		border-radius: 0px 0px 5px 0px;
+		-moz-border-radius-bottomleft:5px;
+		-webkit-border-bottom-left-radius:5px; /* Saf3-4 */
+	}
+	
+	tr:last-child td.last {
+		border-radius: 0px 0px 0px 5px;
+		-moz-border-radius-bottomright:5px;
+		-webkit-border-bottom-right-radius:5px; /* Saf3-4 */
+	}
+
+
+
+	
+.sideBarBoxHead {
+	width: 380px;
+	border-radius: 8px 8px 0px 0px;
+	background-color: #1C94C6;
+	color: #fff;
+	height: 40px;
+	margin-left: 40px;
+	border: solid 1px #E9E9E9;
+	clear: both;
+	float: left;
+}
+.sideBarKonten {
+	width: 380px;
+	clear: both;
+	background-color: #fff;
+	color: #000;
+	height: 200px;
+	margin-left: 40px;
+	border: solid 1px  #E9E9E9;
+	border-top: none;
+	display: block;
+}
+
+.test {
+	margin-left: 0px;
+	height: 400px;
+	background-color: #FFF;
+	width:420px;color:#fff;
+	
+
+}
+.sideBarWrap {
+	background-color: #fff;
+	width: 30%;
+	height: 693px;
+	margin-top: 175px;
+	margin-left: 0px;
+	float: left;
+	border: solid 1px #E9E9E9;
+	border-left: #fff;
+}
+.line1 {
+	border-left: 1px solid #f2f2f2;
+	width: 2px;
+	height: 100%;
+	margin-top: 00%;
+	
+}
+.line2 {
+	border-bottom: 4px solid #DAE1E5;
+	width: 100%;
+	height: 4px;
+	margin-top: 10px;
+	
+}
+
+late {
+	color: #999;
+	font-size: 14px;
+	font-weight: bold;
+}
+.wrapSideArticle {
+	width: 100%;
+	height:40px;
+	padding: 0px; 
+}
+.wrapSideArticle>.pic {
+	width: 45px;
+	height: 40px;
+	background-color: transparent;
+	float: left;
+	display: block;
+	text-align: center;
+	border-left: solid 4px #CCD4D8;
+}
+.pic>.tgl {
+	color: #262626;
+	font-weight: bolder;
+	font-size: 24px;
+	margin-bottom: 2px;
+	padding: 0px;
+	top: -4px;
+}
+.pic>.bln {
+	color: #5f5f5f		;
+	font-weight: bolder;
+	font-size: 12px;
+	padding: 0px;
+	top: -15px;
+	letter-spacing: 2px;
+}
+
+.wrapSideArticle>.judul {
+	width: 70%;
+	float: left;
+	display: inline;
+	margin-left: 10px;
+	height: auto;
+	font-size: 14px;
+	color: #555;
+}
+
+
+type_article {
+	width: auto;
+	background-color: #5BC4BE;
+	padding: 2px 4px;
+	display: inline-block;
+	line-height: 13px;
+	text-align: center;
+	color: #fff;
+	border-radius: 3px;
+	margin-left: 10px;
+}
+
+
+.searchBox1 {
+	width: 100%;
+	border: solid 1px #CCD4D8;
+	font-size: 14px;
+	height: 30px;
+	margin-bottom: 5px;
+	color: #999;
+	padding: 2px 5px 2px 5px;
+	background-image: url('../img/icon-search.png');
+	background-repeat: no-repeat;
+	background-position: 7px 50%;
+	padding-left: 25px;
+}
+.searchBox1:focus {
+	outline: none;
+	border: solid 1px #1C94C6;
+}
+.button1 {
+	border-radius: 3px;
+	background-color: #1C94C6;
+	width: 20%;
+	outline: none;
+	border: none;
+	color: #fff;
+	height: 30px;
+	width: auto;
+	
+	padding-left: 20px;
+	padding-right: 20px;
+	border-top: solid 0px #1C94C6;
+	border-bottom: solid 3px #13668A;
+
+}
+.button1:hover {
+	opacity: .8;
+}
+.button1:active {
+	border-bottom: solid 1px #13668A;
+	
+	margin-top: 1px;
+}
+
+.hr1 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+.wrapSideArticle:hover >.pic {
+	border-left: solid 4px #1C94C6;
+}
+.wrapSideArticle:hover >.judul {
+	color: #1C94C6;
+}
+
+.tab-pane {
+	padding: 5px;
+}
+.tab-content > .active {
+	border: 1px solid #e9e9e9;
+	border-top: transparent;
+	border-radius: 0px 0px 5px 5px;
+	height: auto;
+	min-height: 150px;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+	border-top: solid 5px #1C94C6;
+}
+.nav-tabs > li > a {
+
+border: 1px solid #e9e9e9;
+top: 0px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------- FLIPPER --------------------*/
+
+/* simple */
+		.flip-container {
+			-webkit-perspective: 1000;
+			-moz-perspective: 1000;
+			-ms-perspective: 1000;
+			perspective: 1000;
+
+			-ms-transform: perspective(1000px);
+			-moz-transform: perspective(1000px);
+    		-moz-transform-style: preserve-3d; 
+    		-ms-transform-style: preserve-3d; 
+
+			
+		}
+
+			
+				/* START: Accommodating for IE */
+		.flip-container:hover .back, .flip-container.hover .back {
+	    	-webkit-transform: rotateY(0deg);
+	    	-moz-transform: rotateY(0deg);
+	    	-o-transform: rotateY(0deg);
+	    	-ms-transform: rotateY(0deg);
+	    	transform: rotateY(0deg);
+		}
+
+		.flip-container:hover .front, .flip-container.hover .front {
+	    	-webkit-transform: rotateY(180deg);
+	    	-moz-transform: rotateY(180deg);
+	    	-o-transform: rotateY(180deg);
+	    	transform: rotateY(180deg);
+		}
+			
+			/* END: Accommodating for IE */
+
+		.flip-container, .front, .back {
+			width: 200px;
+			height: 200px;
+		}
+
+		.flipper {
+			-webkit-transition: 0.6s;
+			-webkit-transform-style: preserve-3d;
+			-ms-transition: 0.6s;
+
+			-moz-transition: 0.6s;
+			-moz-transform: perspective(1000px);
+			-moz-transform-style: preserve-3d;
+			-ms-transform-style: preserve-3d;
+
+			transition: 0.6s;
+			transform-style: preserve-3d;
+
+			position: relative;
+		}
+
+		.front, .back {
+			-webkit-backface-visibility: hidden;
+			-moz-backface-visibility: hidden;
+			-ms-backface-visibility: hidden;
+			backface-visibility: hidden;
+
+		    -webkit-transition: 0.6s;
+		    -webkit-transform-style: preserve-3d;
+
+		    -moz-transition: 0.6s;
+		    -moz-transform-style: preserve-3d;
+
+		    -o-transition: 0.6s;
+		    -o-transform-style: preserve-3d;
+
+		    -ms-transition: 0.6s;
+		    -ms-transform-style: preserve-3d;
+
+		    transition: 0.6s;
+		    transform-style: preserve-3d;
+
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+
+		.front {
+			-webkit-transform: rotateY(0deg);
+			-ms-transform: rotateY(0deg);
+			z-index: 2;
+			width:200px; height:200px;margin-left:auto;margin-right:auto;
+		}
+
+		.back {
+			
+			-webkit-transform: rotateY(-180deg);
+		    -moz-transform: rotateY(-180deg);
+		    -o-transform: rotateY(-180deg);
+		    -ms-transform: rotateY(-180deg);
+		    transform: rotateY(-180deg);
+
+		    	width:200px; height:200px;margin-left:auto;margin-right:auto;
+			
+		
+		}
+
+		
+
+		
+/*-------END OF FLIPPER --------*/
+
+
+/*----- VIDEO ------*/
+
+.wrapVideo {
+	height:auto;
+	float: left;
+	width: 100%;
+	text-align:center;
+}
+
+.arsip_boxVideo {
+	width: 249px; background-color: #fff;
+	/*margin-right: 11.265px;
+	margin-bottom: 20px;*/
+	margin: 0 6px 20px;
+	float: left;                   
+	abox-shadow: 0px 2px 2px #bbb;
+	cursor: pointer;
+	color: #2A3744;
+	border: 1px solid #e1e8ed;
+	border-radius: 5px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 10px;
+}
+.arsip_boxVideo:hover>img{
+	opacity: .8;
+}
+.arsip_boxVideo>img {
+height: 175px; background-color: #fff;width: 100%; 
+border-radius: 5px;
+
+}
+.arsip_boxVideo>.details{
+  padding: 10px;
+}
+.arsip_boxVideo>.details>.judul{
+	display: inline-block;margin-bottom: 5px;
+	font: bold 15px/1.2em  Arial;
+	font-weight: bold;
+	line-height: 1em;
+	color: #2a3744;
+	-webkit-font-smoothing: antialiased;  
+	width: 100%;
+	height: 30px;
+	text-align: center;
+}
+.arsip_boxVideo>.details>.sekilas{
+	font-size: 12px;
+	color: #7d7d7d;
+	margin: 10px 0 10px 0;
+	display: block;
+	width: 100%;
+	height: 70px;
+	text-align: left;
+}
+
+.arsip_boxVideo>.details>.tgl{
+  float: right;font-size: 12px;
+}
+
+/*-------END OF VIDEO --------*/
+
+
+/*----- ARSIP ------*/
+.box_searchArsip {
+	width:300px; float:right;padding-top:25px;
+}
+
+.arsip_boxArticle {
+	width: 249px; height: 270px; background-color: #fff;
+	margin-right: 11.265px;
+	margin-bottom: 20px;
+	float: left;                   
+	abox-shadow: 0px 2px 2px #bbb;
+	cursor: pointer;
+	color: #2A3744;
+	border: 1px solid #e1e8ed;
+	border-radius: 5px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 10px;
+}
+.arsip_boxArticle:hover>img{
+	opacity: .8;
+}
+.arsip_boxArticle>img {
+height: 175px; background-color: #fff;width: 100%; 
+border-radius: 5px 5px 0px 0px;
+
+}
+.arsip_boxArticle>.details{
+  padding: 10px;
+}
+.arsip_boxArticle>.details>.judul{
+	display: inline-block;margin-bottom: 5px;
+	font: bold 15px/1.2em  Arial;
+	font-weight: bold;
+	line-height: 1em;
+	color: #2a3744;
+	-webkit-font-smoothing: antialiased;  
+	width: 100%;
+	height: 30px;
+	text-align: center;
+}
+.arsip_boxArticle>.details>.sekilas{
+	font-size: 12px;
+	color: #7d7d7d;
+	margin: 10px 0 10px 0;
+	display: block;
+	width: 100%;
+	height: 70px;
+	text-align: left;
+}
+
+
+
+.arsip_boxArticle>.details>.tgl{
+  float: right;font-size: 12px;
+}
+
+.breadcrumb > li + li:before {
+    color: #CCCCCC;
+    content: "/ ";
+    padding: 0 5px;
+}

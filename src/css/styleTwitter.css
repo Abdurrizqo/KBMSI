@@ -1,0 +1,64 @@
+*,
+*:after,
+*::before {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.st-container {
+	position: relative;
+	overflow: hidden;
+}
+
+.st-menu {
+	position: fixed;
+	top: 50px;
+	left: 0;
+	z-index: 901;
+	visibility: hidden;
+	width: 300px;
+	height: auto;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+	background:none;
+}
+.st-effect-1.st-menu {
+	visibility: visible;
+	-webkit-transform: translate3d(-100%, 0, 0);
+	transform: translate3d(-100%, 0, 0);
+}
+
+.st-effect-1.st-menu-open .st-effect-1.st-menu {
+	visibility: visible;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+.st-effect-1.st-menu::after {
+	display: none;
+}
+
+.buttontwit{
+	position:fixed;
+	top:200px;
+	width: 50px;
+	height: 50px;
+	background-color: #1F1F14;
+	color:white;
+	left:0px;
+	border-top-right-radius:10px;
+	border-bottom-right-radius: 10px;
+	padding: 10px 0 0 10px;
+	transition:ease-out 0.3s;
+}
+.buttontwit:hover{
+	width:55px;
+	padding: 10px 0 0 15px;
+	cursor:pointer;
+	color:#3598db;
+}
+
+.st-pusher{
+	z-index: 900;
+}
+
