@@ -10,23 +10,15 @@ defined('BASEPATH') or exit('No direct script access allowed');
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-
-
-	<!-- Font Awesome -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
 	<!-- Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Lato:700|Roboto+Condensed:300,400,700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Candal&display=swap" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 
 	<!-- Custom stylesheet -->
-	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/headerNEW.css">
-	<!-- <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/produkNEW.css"> -->
-	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">
+	<link rel="stylesheet" href="<?= base_url() ?>assets/css/headerNEW.css">
 	<link rel="stylesheet" href="<?= base_url() ?>assets/css/<?= $css ?>.css">
 
 	<!-- JQuery for templating -->
@@ -54,10 +46,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
 				<ul class="navbar-nav ml-auto">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item  <?= ($this->uri->segment(1) == '' ? 'active' : '') ?>">
-							<a class="nav-link" href="<?= base_url() ?>">Beranda</a>
+							<a class="nav-link" href="<?= base_url() ?>">Home</a>
 						</li>
 						<li class="nav-item  <?= ($this->uri->segment(1) == 'Kelembagaan' || $this->uri->segment(1) == 'kelembagaan' ? 'active' : '') ?>">
-							<a class="nav-link" href="<?= base_url() ?>Kelembagaan">Kelembagaan</a>
+							<a class="nav-link" href="<?= base_url() ?>Kelembagaan">Lembaga</a>
 						</li>
 						<li class="nav-item <?= ($this->uri->segment(1) == 'Berita' ? 'active' : '') ?>">
 							<a class="nav-link" href="<?= base_url() ?>Berita">Berita</a>
@@ -65,12 +57,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
 						<li class="nav-item  <?= ($this->uri->segment(1) == 'Produk' ? 'active' : '') ?>">
 							<a class="nav-link" href="<?= base_url() ?>Produk">Produk</a>
 						</li>
-						<!-- <li class="nav-item  <?= ($this->uri->segment(1) == 'Produk' ? 'active' : '') ?>">
-								<a class="nav-link text-info" href="http://oprec.kbmsi.or.id/"><b>Open Recruitment</b></a>
-							</li> -->
-						<!-- <li class="nav-item  <?= ($this->uri->segment(1) == 'Jobs' ? 'active' : '') ?>">
-								<a class="nav-link" href="<?= base_url() ?>Jobs">Job Vacancies</a>
-							</li> -->
 					</ul>
 				</ul>
 			</div>

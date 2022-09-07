@@ -1,16 +1,14 @@
-
 .navbar {
-    background-color:#fff;
-    -webkit-filter: drop-shadow(0, 0, 0, 0.7);
-    filter: drop-shadow(0, 0, 0, 1);   
-    transition: 0.5s all ease-in;     
-    
+  background-color: #e0dbd5;
+  -webkit-filter: drop-shadow(0, 0, 0, 0.7);
+  filter: drop-shadow(0, 0, 0, 1);
+  transition: 0.5s all ease-in;
 }
-    
-.navbar-nav{        
-    margin-top: 5px;
-    text-align: right;
-    padding-bottom: 5px;
+
+.navbar-nav {
+  margin-top: 5px;
+  text-align: right;
+  padding-bottom: 5px;
 }
 
 /* .nav-link{    
@@ -21,54 +19,38 @@
     position:sticky ;    
 } */
 
-
-
 .nav-link {
-    margin-left: 25px;
-    /* margin-top: -10px; */
-    text-transform: uppercase;
-    color: #ED5A41 !important;
-    text-shadow: 1px 0px #FFC12B;
-    font-size: 15px !important;
-    font-family: 'Candal', sans-serif !important;
+  margin-left: 25px;
+  /* margin-top: -10px; */
+  text-transform: uppercase;
+  color: #405649 !important;
+  text-shadow: 0px 5px 16px rgba(109, 106, 106, 0.76);
+  font-size: 15px !important;
+  font-weight: bold;
+  font-family: "Lato", sans-serif !important;
 }
 
-
-
 @media (min-width: 992px) {
-    .navnav{
-        background-color: transparent;
-    }
-    .navnav.scrolled{
-        background-color: #fff !important;
-        box-shadow: 0px 4px 20px rgb(148, 148, 148);
-    }
-    .nav-link:hover::after{
-        content: '';        
-        display: block;
-        border-bottom: 3px solid #ED5A41 !important;        
-        margin: auto !important;
-        margin-bottom: -8px !important;
-        width: 50% !important;
-        padding-bottom: 5px;        
-        
-    
-    }
-    
+  .navnav {
+    background-color: transparent;
+  }
+  .navnav.scrolled {
+    background-color: #e0dbd5 !important;
+    box-shadow: 0px 4px 20px rgb(148, 148, 148);
+  }
+  .nav-link:hover {
+    color: #df7833 !important;
+  }
 }
 
 ::-webkit-scrollbar {
-    width: 5px;
+  width: 5px;
 }
 /* Track */
 ::-webkit-scrollbar-track {
-    background: #FFC12B;
+  background: #ffc12b;
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #143770;
+  background: #143770;
 }
-/* Handle on hover */
-/* ::-webkit-scrollbar-thumb:hover {
-    background: #198ea5;
-} */
