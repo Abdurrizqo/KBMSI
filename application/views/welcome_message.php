@@ -1,13 +1,16 @@
 <header class="bg">
-	<img class="yellow" style="position: absolute;" src="<?= base_url('assets/img/Ellipse 5.svg') ?>" alt="">
+
+	<!-- <img class="yellow" style="position: absolute;" src="<?= base_url('assets/img/Ellipse 5.svg') ?>" alt="">
 	<img class="blue" style="position: absolute;" src="<?= base_url('assets/img/Ellipse 6.svg') ?>" alt="">
 	<img class="orange" style="position: absolute;" src="<?= base_url('assets/img/Ellipse 7.svg') ?>" alt="">
 	<img class="yellow-2" style="position: absolute; transform:scaleX(-1)" src="<?= base_url('assets/img/Ellipse 5.svg') ?>" alt="">
 	<img class="blue-2" style="position: absolute; overflow: hidden;" src="<?= base_url('assets/img/Ellipse 6.svg') ?>" alt="">
-	<img class="orange-2" style="position: absolute;" src="<?= base_url('assets/img/Ellipse 7.svg') ?>" alt="">
+	<img class="orange-2" style="position: absolute;" src="<?= base_url('assets/img/Ellipse 7.svg') ?>" alt=""> -->
+	
 	<div class="container text-center">
 		<h2 style="color: #ED5A41; text-shadow: 5px 0px 0px #FFC12B;">Semangat Pagi!</h2>
-		<h4 style="color: #16376E; text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.25);">Selamat datang di website <br> Keluarga Besar Mahasiswa Sistem Informasi</h4>
+		<h4 style="color: #16376E; text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.25);">#Demokrasi Beraksi <br>#Kolaborasi Beraksi </h4>
+		<!-- <h4 style="color: #16376E; text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.25);">Selamat datang di website <br> Keluarga Besar Mahasiswa Sistem Informasi</h4> -->
 	</div>
 	<!-- <a href="http://www.freepik.com">Designed by Freepik</a> -->
 </header>
