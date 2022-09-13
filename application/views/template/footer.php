@@ -1,60 +1,3 @@
-<!-- <div class="bg-dark text-light p-3">
-            <div class="container p-2">
-                <div class="row d-flex">
-                    <div class="col-lg-3 col-md-4 mt-3">
-                        <h4> Keluarga Besar Mahasiswa Sistem Informasi</h4>
-                        <p class="font-weight-light"> Gedung D Fakultas Ilmu Komputer Universitas Brawijaya Jalan Veteran nomor 8 Malang, Jawa Timur, Indonesia 65145 </p>
-
-                    </div>
-                    <div class="col-lg-4 offset-lg-5 col-md-4 offset-md-4 mt-3">
-                        <p class="d-xs-block d-sm-none font-weight-light" id="sosial-media-text">SOSIAL MEDIA</p>
-                        <div class="row justify-content-end" id="sosial-media">
-                            <div class="col-2">
-                                <a href="#">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                            </div>
-                            <div class="col-2">
-                                <a href="https://twitter.com/emsi_ub?lang=en">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                            </div>
-                            <div class="col-2">
-                                <a href="https://www.youtube.com/channel/UCc7XWqQPVoSx7rAonTRiv9w">
-                                    <i class="fab fa-youtube"></i>
-                                </a>
-                            </div>
-                            <div class="col-2">
-                                <a href="http://line.me/ti/p/@kig7594u">
-                                    <i class="fab fa-line"></i>
-                                </a>
-                            </div>
-                            <div class="col-2">
-                                <a href="https://www.instagram.com/kbmsi_ub/">
-                                    <i class="fab fa-instagram"></i>
-                                </a>
-                            </div>
-                            <div class="col-2">
-                                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kbmsi@ub.ac.id">
-                                    <i class="far fa-envelope"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="copyright bg-dark mt-5"> 
-                    &copy; 2018. Made with <b>&#x2764;	</b> by <a class="text-light" href="<?php echo base_url() ?>kelembagaan/emsi/p2s"> P2S EMSI</a>
-                </div>
-            </div>
-        </div> -->
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
-
-<!-- Custom scripts -->
-<!-- </body>
-</html> -->
 <!-- Kontak -->
 <div id="kontak" class="text-white pb-4" style="position: relative;">
     <div class="custom-shape-divider-top-1630942353">
@@ -88,9 +31,6 @@
                     <li><a href="https://twitter.com/emsi_ub" style="text-decoration: none;"><i class="fab fa-twitter" style="color: black;"></i></a></li>
                     <li><a href="https://www.instagram.com/kbmsi_ub" style="text-decoration: none;"><i class="fab fa-instagram" style="color: black;"></i></a></li>
                     <li><a href="https://www.youtube.com/channel/UCc7XWqQPVoSx7rAonTRiv9w" style="text-decoration: none;"><i class="fab fa-youtube" style="color: black;"></i></a></li>
-                    <!-- <li><a class="text-dark" href="https://twitter.com/emsi_ub" target="_blank"><img src="<?= base_url('assets/img/logo-twt.svg') ?>" alt=""></a></li>
-					<li><a class="text-dark" href="https://www.instagram.com/kbmsi_ub" target="_blank"><img src="<?= base_url('assets/img/logo-ig.svg') ?>" alt=""></a></li>
-					<li><a class="text-dark" href="https://www.youtube.com/channel/UCc7XWqQPVoSx7rAonTRiv9w" target="_blank"><img src="<?= base_url('assets/img/logo-yt.svg') ?>" alt=""></a></li> -->
                 </ul>
                 <h4>Informasi Kontak</h4>
                 <ul class="contact-info mb-5" style="font-weight: bold;">
@@ -104,11 +44,6 @@
     </div>
 </div>
 
-<!-- <div class="copyright text-right">
-    <div class="container">
-        &copy; 2021. Made with <b>&#x2764; </b> by <a class="text-light" href="<?php echo base_url() ?>kelembagaan/emsi/p2s"> P2S EMSI 2021/2022</a>
-    </div>
-</div> -->
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

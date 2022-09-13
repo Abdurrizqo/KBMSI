@@ -131,47 +131,8 @@
 		</div>
 	</div>
 </div>
-<!-- <div class="copyright text-right">
-	<div class="container">
-		&copy; 2021. Made with <b>&#x2764; </b> by <a class="text-light" href="<?php echo base_url() ?>kelembagaan/emsi/p2s"> P2S EMSI 2021/2022</a>
-	</div>
-</div> -->
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-<!-- Custom scripts -->
 <script>
-	// $(document).ready(function() {
-	// 	$('video').css('object-fit', 'cover');
-	// 	if (window.pageYOffset == 0) {
-	// 		$('#nav').removeClass('bg-dark, shadow-sm');
-	// 		$('#nav').addClass('bg-transparent');
-	// 	} else if (window.pageYOffset > 0) {
-	// 		$('#nav').removeClass('bg-transparent');
-	// 		$('#nav').addClass('bg-dark, shadow-sm');
-	// 	}
-	// 	$(window).on('scroll', function() {
-	// 		if (window.pageYOffset == 0) {
-	// 			$('#nav').removeClass('bg-dark, shadow-sm');
-	// 			$('#nav').addClass('bg-transparent');
-	// 		} else if (window.pageYOffset > 0) {
-	// 			$('#nav').removeClass('bg-transparent');
-	// 			$('#nav').addClass('bg-dark, shadow-sm');
-	// 		}
-	// 	});
-	// 	if (navigator.appVersion.includes("MiuiBrowser") || navigator.appVersion.includes("Line")) {
-	// 		alert('Sangat disarankan untuk menggunakan Browser Chrome demi kenyamanan anda dalam mengakses website kami, Terimakasih');
-	// 		$('video').remove();
-	// 	}
-	// });
-
-	// $('#nav-trigger').on('click', function() {
-	// 	$('#nav').toggleClass('bg-transparent');
-	// 	$('#nav').addClass('bg-dark, shadow-sm');
-	// });
-
 	function aboutusAppear() {
 		let about = document.querySelector('.text-about');
 		let aboutPos = about.getBoundingClientRect().top;
@@ -186,6 +147,3 @@
 
 	window.addEventListener('scroll', aboutusAppear);
 </script>
-</body>
-
-</html>
