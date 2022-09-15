@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+nav {
+  font-family: "Lato", sans-serif !important;
+}
+
+.shakeAnimation {
+  animation: shake 0.8s;
+  animation-iteration-count: infinite;
+}
+
+.shadowText {
+  text-shadow: 0px 0px 15px #7d7d7d;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-3deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
