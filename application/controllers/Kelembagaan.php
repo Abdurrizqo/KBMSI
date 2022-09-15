@@ -13,9 +13,9 @@ class Kelembagaan extends CI_Controller
     public function index()
     {
         $data['css'] = 'style';
-        $this->load->view('template/headerNew', $data);
-        $this->load->view('kelembagaanNew');
-        $this->load->view('template/footer');
+        $this->load->view('template/NewHeader', $data);
+        $this->load->view('NewLembaga');
+        $this->load->view('template/NewFooter');
     }
 
     public function emsi($departemen = NULL)
@@ -89,12 +89,12 @@ class Kelembagaan extends CI_Controller
                     $data['staff'] = $this->M->showStaffAhliKomisi('hukum');
                     $this->load->view('lembaga/bpmsi/hukumNew', $data);
                     break;
-                // case 'aspirasi':
-                //     $data['ketua'] = $this->M->showKetuaKomisi('aspirasi');
-                //     $data['anggota'] = $this->M->showAnggotaKomisi('aspirasi');
-                //     $data['staff'] = $this->M->showStaffAhliKomisi('aspirasi');
-                //     $this->load->view('lembaga/bpmsi/aspirasi', $data);
-                //     break;
+                    // case 'aspirasi':
+                    //     $data['ketua'] = $this->M->showKetuaKomisi('aspirasi');
+                    //     $data['anggota'] = $this->M->showAnggotaKomisi('aspirasi');
+                    //     $data['staff'] = $this->M->showStaffAhliKomisi('aspirasi');
+                    //     $this->load->view('lembaga/bpmsi/aspirasi', $data);
+                    //     break;
                 case 'kominfo':
                     $data['ketua'] = $this->M->showKetuaKomisi('kominfo');
                     $data['anggota'] = $this->M->showAnggotaKomisi('kominfo');

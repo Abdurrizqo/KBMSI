@@ -1,14 +1,15 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
-class Produk extends CI_Controller {
+class Produk extends CI_Controller
+{
 
 
 	public function index()
 	{
 		$data['css'] = 'produkNEW';
-		$this->load->view('template/headerNew' , $data);
-		$this->load->view('produkNEW');
-		$this->load->view('template/footer');
+		$this->load->view('template/NewHeader', $data);
+		$this->load->view('NewProduk');
+		$this->load->view('template/NewFooter');
 	}
 }

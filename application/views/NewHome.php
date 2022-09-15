@@ -11,7 +11,7 @@
 
     </div>
 
-    <div class="w-full left-0 right-0 absolute -bottom-10 z-20 lg:-bottom-60 -z-10">
+    <div class="w-full left-0 right-0 absolute -bottom-6 z-20 lg:-bottom-60 -z-10">
         <img src="<?php echo base_url(); ?>assets/img/sembilan/pohonHeader.png" class="w-full h-full object-cover" />
     </div>
 
