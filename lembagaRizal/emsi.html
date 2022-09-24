@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              abu: "#E0DBD5",
+              hijau: "#405649",
+              orange: "#DF7833",
+            },
+            screens: {
+              kecil: "300px",
+              // => @media (min-width: 640px) { ... }
+            },
+          },
+        },
+      };
+    </script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css"
+    />
+  </head>
+  <body>
+    <div class="relative h-screen mt-32">
+      <div class="z-50 relative">
+        <img
+          src="../assets/img/sembilan/genericEmsi.svg"
+          class="mx-auto w-60 lg:w-80 relative -mt-9"
+          alt=""
+        />
+        <h1
+          class="text-3xl lg:text-5xl text-center font-bold text-hijau mt-4 z-50"
+        >
+          Eksekutif mahasiswa sistem informasi
+        </h1>
+        <h4 class="text-2xl text-3xl font-thin text-hijau text-center">
+          #Kolaborasi Beraksi
+        </h4>
+      </div>
+
+      <!-- bagian atas -->
+      <img
+        class="w-full left-0 right-0 absolute bottom-6 z-10"
+        src="../assets/img/sembilan/gunung.png"
+        alt=""
+      />
+      <img
+        class="w-full left-0 right-0 absolute -bottom-6 z-20"
+        src="../assets/img/sembilan/pohonHeader.png"
+        alt=""
+      />
+    </div>
+
+    <!-- VISI MISI -->
+
+    <div class="bg-hijau pl-[20px] pr-[20px]">
+      <div class="lg:max-w-5xl mx-auto">
+        <h1
+          class="text-2xl lg:text-3xl text-center font-bold text-white pt-6 mb-12"
+        >
+          VISI
+        </h1>
+        <p class="text-white text-sm md:text-xl text-center mb-12">
+          Eksekutif Mahasiswa Sistem Informasi sebagai inisiator perubahan yang
+          adaptif, kreatif dan solutif guna mengoptimalisasi fungsi serta
+          kesejahteraan Keluarga Besar Mahasiswa Sistem Informasi
+        </p>
+        <h1 class="text-2xl lg:text-3xl text-center font-bold text-white mb-12">
+          MISI
+        </h1>
+        <ol
+          class="list-decimal text-white text-sm md:text-xl text-left pl-5 mt-4"
+        >
+          <li>
+            Menciptakan iklim kerja yang suportif dan profesional bagi internal
+            maupun eksternal Eksekutif Mahasiswa Sistem Informasi.
+          </li>
+          <li>
+            Sebagai fasilitator dalam pelayanan advokasi yang aktual dan
+            responsif
+          </li>
+          <li>Mewadahi potensi minat dan bakat KBMSI secara komprehensif</li>
+          <li>
+            Menjadikan KBMSI yang proaktif dalam memberikan kebermanfaatan
+            terhadap lingkungan sekitar
+          </li>
+          <li>
+            Menjalin relasi yang harmonis terhadap seluruh elemen yang ada di
+            dalam maupun luar KBMSI
+          </li>
+        </ol>
+      </div>
+    </div>
+    <!-- AKHIR VISI MISI -->
+
+    <!-- PEMBATAS -->
+    <img
+      src="../assets/img/sembilan/lumut.svg"
+      alt=""
+      width="100%"
+      class="mb-12"
+    />
+    <!-- akhir pembatas -->
+
+    <!-- Struktur lembaga -->
+
+    <!-- EMSI -->
+    <div class="mb-9 mt-20">
+      <img
+        src="../assets/img/sembilan/Logo EMSI.svg"
+        alt=""
+        width="150px"
+        class="mx-auto mb-9"
+      />
+      <a href="">
+        <button
+          class="rounded-full text-white mt-6 py-2 px-5 bg-orange shadow block mx-auto min-w-[220px] hover:bg-[#804117]"
+        >
+          EMSI
+        </button>
+      </a>
+    </div>
+
+    <!-- non-dept -->
+    <div class="mt-32">
+      <img
+        src="../assets/img/sembilan/nondept.svg"
+        alt=""
+        width="220px"
+        class="mx-auto"
+      />
+      <a href="">
+        <button
+          class="rounded-full text-white mt-6 py-2 px-5 bg-orange shadow block mx-auto min-w-[220px] hover:bg-[#804117]"
+        >
+          NON-DEPT
+        </button>
+      </a>
+    </div>
+
+    <!-- grid -->
+    <div class="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-4 flex-col">
+      <!-- advokesma -->
+      <div class="mt-9">
+        <img
+          src="../assets/img/sembilan/advokesma.svg"
+          alt=""
+          width="220px"
+          class="mx-auto"
+        />
+        <a href="">
+          <button
+            class="rounded-full text-white mt-6 py-2 px-5 bg-hijau shadow block mx-auto min-w-[220px] hover:bg-[#008838]"
+          >
+            ADVOKESMA
+          </button>
+        </a>
+      </div>
+      <div class="mt-9">
+        <img
+          src="../assets/img/sembilan/kwu.svg"
+          alt=""
+          width="220px"
+          class="mx-auto"
+        />
+        <a href="">
+          <button
+            class="rounded-full text-white mt-6 py-2 px-5 bg-hijau shadow block mx-auto min-w-[220px] hover:bg-[#008838]"
+          >
+            KWU
+          </button>
+        </a>
+      </div>
+      <div class="mt-9 min-w-[220px]">
+        <img
+          src="../assets/img/sembilan/medkom.svg"
+          alt=""
+          width="220px"
+          class="mx-auto"
+        />
+        <a href="">
+          <button
+            class="rounded-full text-white mt-6 py-2 px-5 bg-hijau shadow block mx-auto min-w-[220px] hover:bg-[#008838]"
+          >
+            MEDKOMINFO
+          </button>
+        </a>
+      </div>
+      <div class="mt-9 min-w-[220px]">
+        <img
+          src="../assets/img/sembilan/Logo P2S.svg"
+          alt=""
+          width="220px"
+          class="mx-auto"
+        />
+        <a href="">
+          <button
+            class="rounded-full text-white mt-6 py-2 px-5 bg-hijau shadow block mx-auto min-w-[220px] hover:bg-[#008838]"
+          >
+            P2S
+          </button>
+        </a>
+      </div>
+      <div class="mt-9 min-w-[220px]">
+        <img
+          src="../assets/img/sembilan/psdm.svg"
+          alt=""
+          width="220px"
+          class="mx-auto"
+        />
+        <a href="">
+          <button
+            class="rounded-full text-white mt-6 py-2 px-5 bg-hijau shadow block mx-auto min-w-[220px] hover:bg-[#008838]"
+          >
+            PSDM
+          </button>
+        </a>
+      </div>
+      <div class="mt-9 min-w-[220px]">
+        <img
+          src="../assets/img/sembilan/sosma.svg"
+          alt=""
+          width="220px"
+          class="mx-auto"
+        />
+        <a href="">
+          <button
+            class="rounded-full text-white mt-6 py-2 px-5 bg-hijau shadow block mx-auto min-w-[220px] hover:bg-[#008838]"
+          >
+            SOSMA
+          </button>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

@@ -28,14 +28,13 @@ class Welcome extends CI_Controller
 	public function index()
 	{
 		$data['berita'] = $this->M->all(6, 0)->result();
-		$data['css'] = 'style';
 		foreach ($data['berita'] as $b) {
 			$lastUpdateDateTime = new DateTime($b->LAST_UPDATE);
 			$b->LAST_UPDATE = $lastUpdateDateTime->format('d M Y');
 			$truncatedKonten = substr(strip_tags(preg_replace('/<img[^>]+>/i', '', $b->KONTEN)), 0, 200);
 			$b->KONTEN = $truncatedKonten . ' ...';
 		}
-		$this->load->view('template/NewHeader', $data);
+		$this->load->view('template/NewHeader');
 		$this->load->view('NewHome', $data);
 		$this->load->view('template/NewFooter');
 	}
